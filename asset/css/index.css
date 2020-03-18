@@ -1,4 +1,17 @@
+@media(max-device-width: 600px){
+  nav{
+    flex-direction: column;
 
+  }
+
+  .head{
+    flex-direction: column;
+    flex: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+}
 nav{
   display: flex;
   text-align: center;
