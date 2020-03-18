@@ -1,0 +1,135 @@
+nav{
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  padding: 20px;
+  justify-content: center;
+}
+
+
+
+body{
+  background-color: lightgrey;
+}
+
+
+
+
+nav a{
+  flex-basis: 100%;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.head{
+
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px solid black;
+  padding: 20px;
+
+
+}
+.head img{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.mypic{
+  flex-basis: 23%;
+}
+
+.info{
+  margin-top: 20px;
+}
+
+.contact{
+  padding-left: 20px;
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+
+.contact h3{
+  font-size: 22px;
+}
+
+.contact a{
+  margin: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.form{
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  justify-content: flex-start;
+
+
+
+}
+
+.label-input{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+
+}
+.label{
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  display: block;
+  margin-top: 10px;
+  margin-bottom:20px;
+}
+input{
+  display: block;
+  margin: 10px;
+  width: 300px;
+  height:30px;
+}
+
+textarea{
+  display: block;
+  margin: 10px;
+}
+
+select{
+  display: block;
+  margin: 20px;
+  width: 200px;
+  height:30px;
+}
+
+
+
+#rate{
+  margin-top: 100px;
+  margin-right: 10px;
+}
+#submit{
+  position: relative;
+  font-size: 25px;
+  width: 500px;
+  height: 50px;
+  top: 10px;
+  left: -210px;
+  margin-bottom: 10px;
+  border-radius: 9px;
+  background-color: grey;
+}
