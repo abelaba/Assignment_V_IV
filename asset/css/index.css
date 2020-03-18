@@ -1,0 +1,102 @@
+
+nav{
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  padding: 20px;
+  justify-content: center;
+}
+
+
+
+body{
+  background-color: lightgrey;
+}
+
+
+
+
+nav a{
+  flex-basis: 100%;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.head{
+  display: flex;
+  border-bottom: 2px solid black;
+  padding: 20px;
+
+
+}
+.head img{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.mypic{
+  flex-basis: 23%;
+}
+
+.info{
+  margin-top: 20px;
+}
+
+.hobbies{
+  clear: both;
+  padding-left: 10px;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.hobbies h3{
+  font-size: 22px;
+}
+
+.hobbies ul li{
+  font-size: 17px;
+  margin: 5px;
+
+}
+
+.work{
+  border-bottom: 2px solid black;
+  padding-top: 10px;
+}
+
+.work h1{
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+  padding-left: 10px;
+
+}
+
+.work p{
+  padding-left: 20px;
+  font-size: 17px;
+}
+
+.skill{
+  border-bottom: 2px solid black;
+  padding-left: 10px;
+}
+
+.skill h3{
+  font-size: 22px;
+}
+
+.skill p{
+  padding-left: 20px;
+  font-size: 17px;
+}
+
+.star{
+  margin-left: 20px;
+}
