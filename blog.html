@@ -33,7 +33,22 @@
 
       </section>
 
-      
+      <section>
+        <p class="title">CSS pixel</p>
+        <article class="">
+          <p>The “px” unit in CSS doesn't really have anything to do with screen pixels, despite the poorly chosen name. It's actually an non-linear angular measurement.
+              The CSS pixel is a 'reference' pixel, not a device pixel.
+              The thing to remember is that a CSS px is an abstract unit and there is a ratio controlling how it a) maps to actual device pixels and b) maps to physical units (in a fixed way, the ratio is always 96 CSS px to an inch).
+              Pixel units are relative to the resolution of the viewing device.</p>
+          <p>For a CSS device, dimensions are either anchored (i) by relating the physical units to their physical measurements, or (ii) by relating the pixel unit to the reference pixel. For print media and similar high-resolution devices, the anchor unit should be one of the standard physical units (inches, centimeters, etc). For lower-resolution devices, and devices with unusual viewing distances, it is recommended instead that the anchor unit be the pixel unit. For such devices it is recommended that the pixel unit refer to the whole number of device pixels that best approximates the reference pixel.
+          Note that if the anchor unit is the pixel unit, the physical units might not match their physical measurements.
+           Alternatively if the anchor unit is a physical unit, the pixel unit might not map to a whole number of device pixels.</p>
+
+        </article>
+        <p class="date">March 21,2020 9:30 PM</p>
+
+      </section>
+
 
 
     </div>
