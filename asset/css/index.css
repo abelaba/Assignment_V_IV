@@ -23,21 +23,24 @@ nav{
   justify-content: center;
 }
 
-
-
-body{
-  background-color: lightgrey;
-}
-
-
-
-
 nav a{
   flex-basis: 100%;
   margin: 10px;
   text-decoration: none;
   text-transform: uppercase;
 }
+
+
+
+
+body{
+  padding: 10px;
+  background-color: lightgrey;
+}
+
+
+
+
 
 .head{
   display: flex;
@@ -50,7 +53,7 @@ nav a{
   border-radius: 100%;
   width: 200px;
   height: 200px;
-  margin-left: 10px;
+
   margin-bottom: 20px;
 }
 
@@ -59,6 +62,7 @@ nav a{
 }
 
 .info{
+
   margin-top: 20px;
 }
 

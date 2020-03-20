@@ -12,13 +12,6 @@
   }
 
 }
-
-*{
-  margin: 10px;
-}
-body{
-  background-color: lightgrey;
-}
 nav{
   display: flex;
   text-align: center;
@@ -35,4 +28,36 @@ nav a{
   margin: 10px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+
+section{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px 30px;
+}
+
+article {
+    line-height: 25 px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.date {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+
+
+body{
+  padding: 10px;
+  background-color: lightgrey;
 }
