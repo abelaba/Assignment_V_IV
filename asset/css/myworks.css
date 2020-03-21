@@ -4,6 +4,10 @@
 
   }
 
+  div{
+    flex-direction: column;
+  }
+
   .head{
     flex-direction: column;
     flex: 100%;
@@ -15,9 +19,11 @@
 
 *{
   margin: 10px;
+  text-decoration: none;
 }
 body{
   background-color: lightgrey;
+  text-decoration: none;
 }
 nav{
   display: flex;
@@ -35,4 +41,28 @@ nav a{
   margin: 10px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.works{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+div a{
+  font-size: 30px;
+  color: black;
+  margin-top: 50px;
+  border: 3px solid green;
+  padding: 30px;
+  background-color: skyblue;
+}
+
+div a:hover {
+
+
+  color: blue;
+
 }
